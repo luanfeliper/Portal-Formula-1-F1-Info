@@ -17,6 +17,9 @@ O portal inclui:
 ### Tela inicial
 ![Tela inicial](images/screenshots/tela_inicial.png)
 
+### Tela sobre
+![Tela sobre](images/screenshots/tela_sobre.png)
+
 ### Tela de calendário
 ![Tela de calendário](images/screenshots/tela_calendario.png)
 
@@ -25,6 +28,9 @@ O portal inclui:
 
 ### Tela de perfil de piloto
 ![Tela de perfil de piloto](images/screenshots/tela_perfil-piloto.png)
+
+### Gráfico de evolução do piloto
+![Gráfico de evolução do piloto](images/screenshots/grafico_evolucao-piloto.png)
 
 ### Tela de equipes
 ![Tela de equipes](images/screenshots/tela_equipes.png)
@@ -37,12 +43,6 @@ O portal inclui:
 
 ### Tela de circuito
 ![Tela de circuito](images/screenshots/tela_circuito.png)
-
-### Tela sobre
-![Tela sobre](images/screenshots/tela_sobre.png)
-
-### Gráfico de evolução do piloto
-![Gráfico de evolução do piloto](images/screenshots/grafico_evolucao-piloto.png)
 
 ---
 
