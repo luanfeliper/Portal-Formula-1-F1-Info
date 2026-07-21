@@ -12,6 +12,28 @@ O portal inclui:
 * **🏎️ Imersão:** Páginas dedicadas a detalhes de pilotos e equipes.
 * **💾 Dados:** Conteúdo dinâmico carregado a partir de arquivos JSON locais.
 
+## 📸 Screenshots
+
+![Tela inicial](images/screenshots/tela_inicial.png)
+
+![Tela de calendário](images/screenshots/tela_calendario.png)
+
+![Tela de pilotos](images/screenshots/tela_pilotos.png)
+
+![Tela de perfil de piloto](images/screenshots/tela_perfil-piloto.png)
+
+![Tela de equipes](images/screenshots/tela_equipes.png)
+
+![Tela de perfil de equipe](images/screenshots/tela_perfil-equipe.png)
+
+![Tela de perfil de equipe com pilotos](images/screenshots/tela_perfil-equipe-pilotos.png)
+
+![Tela de circuito](images/screenshots/tela_circuito.png)
+
+![Tela sobre](images/screenshots/tela_sobre.png)
+
+![Gráfico de evolução do piloto](images/screenshots/grafico_evolucao-piloto.png)
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -40,7 +62,9 @@ Para o desenvolvimento deste ecossistema front-end, foram utilizadas as seguinte
 ├── index.html          # Página inicial do portal
 ├── schedule.html       # Calendário de corridas e resultados
 ├── drivers.html        # Grid completo de pilotos da temporada
+├── driver.html         # Detalhes e histórico dos pilotos
 ├── teams.html          # Lista e histórico das escuderias
+├── team.html           # Detalhes e histórico das escuderias
 ├── circuit.html        # Detalhes técnicos dos circuitos
 ├── data/               # Arquivos JSON (Banco de dados local)
 ├── styles/             # Arquitetura de arquivos CSS
