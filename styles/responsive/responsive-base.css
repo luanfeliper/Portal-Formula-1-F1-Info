@@ -3,7 +3,26 @@
   ====================================================== */
 @media (max-height: 500px) and (orientation: landscape) {
 
-    .index-hero, .schedule-hero, .teams-hero {
+    .index-hero,
+    .schedule-hero,
+    .teams-hero {
         min-height: 90vh;
+    }
+}
+
+@media (min-width: 992px) {
+    /* FOOTER */
+    .footer-container {
+        grid-template-columns: 1.5fr 1fr 1fr;
+        text-align: left;
+        align-items: start;
+    }
+
+    .logo-section p {
+        margin: 0;
+    }
+
+    .social-icons {
+        align-items: flex-start;
     }
 }
