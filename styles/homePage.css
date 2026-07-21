@@ -1,0 +1,11 @@
+@import url("layout/index/page-home.css");
+
+@import url("layout/index/index-hero.css");
+
+@import url("layout/index/index-main/index-main.css");
+@import url("layout/index/index-main/summary.css");
+@import url("layout/index/index-main/standings.css");
+@import url("layout/index/index-main/about.css");
+@import url("layout/index/index-main/history.css");
+
+@import url("responsive/responsive-index.css");

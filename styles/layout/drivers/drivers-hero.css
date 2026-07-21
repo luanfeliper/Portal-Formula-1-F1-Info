@@ -1,0 +1,24 @@
+.drivers-hero {
+    grid-area: drivers-hero;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../../../images/banners/banner-5.avif");
+    background-position: top;
+}
+
+.drivers-hero-content h1 {
+    font-family: var(--font-formula);
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--text-primary);
+    text-shadow: var(--text-shadow-strong);
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.drivers-hero-content p {
+    color: var(--text-primary);
+    font-family: var(--font-highlight);
+    text-shadow: var(--text-shadow-strong);
+    font-size: 1.2rem;
+}

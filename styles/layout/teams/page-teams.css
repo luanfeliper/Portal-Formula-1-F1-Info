@@ -1,0 +1,7 @@
+.page-teams {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "teams-main"
+        "footer";
+}

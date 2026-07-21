@@ -1,0 +1,152 @@
+.teams-main {
+    grid-area: teams-main;
+
+    display: grid;
+    grid-template-areas:
+        "teams-hero"
+        "teams-card-container";
+
+    background-color: var(--bg-secondary);
+}
+
+.teams-card-container {
+    grid-area: teams-card-container;
+
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 20px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background-color: var(--bg-secondary);
+}
+
+.team-card {
+    color: var(--text-primary);
+    width: 100%;
+    border-radius: 20px 8px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+
+    border: 3px solid var(--border-secondary);
+    border-top-width: 3px;
+    border-bottom-width: 5px;
+    transition: 0.2s;
+
+    text-decoration: none;
+
+    box-shadow: var(--box-shadow-soft);
+}
+
+.team-card:hover {
+    border-color: var(--border-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-accent);
+}
+
+.team-card:hover .team-card__tittle {
+    text-decoration: underline;
+}
+
+.team-card__header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+    background-color: rgba(29, 14, 14, 0.363);
+    padding: 15px;
+
+    box-shadow: var(--box-shadow-soft);
+}
+
+.team-card__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+    box-shadow: var(--box-shadow-soft);
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.team-card__logo img {
+    width: 100%;
+    height: auto;
+    /* Mude para auto para não achatar o logo */
+    object-fit: contain;
+    /* Garante que o logo caiba inteiro sem distorcer */
+}
+
+.team-card__tittle {
+    font-family: var(--font-formula);
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    text-shadow: var(--text-shadow-strong);
+    text-decoration: none;
+}
+
+.team-card__car-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 1;
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.team-card__car-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left center;
+}
+
+.team-card__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 15px;
+}
+
+.team-card-driver {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.team-card-driver__img-container {
+    border-radius: 12px;
+    box-shadow: var(--box-shadow-soft);
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.team-card-driver__img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.team-card-driver__info span {
+    font-family: var(--font-formula);
+    font-size: 1rem;
+    color: var(--text-primary);
+    text-shadow: var(--text-shadow-strong);
+}

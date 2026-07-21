@@ -1,0 +1,7 @@
+.page-driver {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "driver-main"
+        "footer";
+}

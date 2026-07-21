@@ -1,0 +1,55 @@
+.standings {
+    grid-area: standings;
+    
+    background-color: var(--bg-secondary);
+    padding: 20px;
+}
+
+.standings h2 {
+    font-family: var(--font-formula);
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.standing-table-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.standing-table-container h3 {
+    text-align: center;
+    font-family: var(--font-formula);
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--text-primary);
+
+    padding-top: 15px;
+}
+
+.driver-table-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.standings-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding-top: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.standings-button {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    width: 100%;
+}

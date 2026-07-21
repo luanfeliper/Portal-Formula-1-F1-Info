@@ -1,0 +1,73 @@
+/* ======================================================
+   TABLETS (A partir de 768px)
+   ====================================================== */
+@media (min-width: 768px) {
+
+    .team-hero__car {
+        position: absolute;
+
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 900px;
+    }
+
+    .team-hero__logo {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 45px;
+        z-index: 4;
+    }
+
+    .team-profile__content {
+        padding: 25px 40px;
+    }
+
+    .team-drivers__grid {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .team-driver-card__bg-number {
+        font-size: clamp(120px, 20vw, 250px);
+    }
+
+    .team-statistics {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+/* ======================================================
+   DESKTOPS (A partir de 992px)
+   ====================================================== */
+@media (min-width: 992px) { 
+
+    .team-statistics {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .team-statistics__info {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .team__info-line-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .team-driver-card__image {
+        overflow: hidden;
+        padding-top: 20px;
+        z-index: 2;
+
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: auto;
+    }
+}

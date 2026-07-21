@@ -1,0 +1,9 @@
+/* ====================================================== 
+  CELULAR MODO HORIZONTAL
+  ====================================================== */
+@media (max-height: 500px) and (orientation: landscape) {
+
+    .index-hero, .schedule-hero, .teams-hero {
+        min-height: 90vh;
+    }
+}

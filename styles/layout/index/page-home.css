@@ -1,0 +1,7 @@
+.page-home {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "index-main"
+        "footer";
+}

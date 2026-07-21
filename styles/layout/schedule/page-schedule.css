@@ -1,0 +1,7 @@
+.page-schedule {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "schedule-main"
+    "footer";
+}

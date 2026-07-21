@@ -1,0 +1,39 @@
+/* ======================================================
+   TABLETS (A partir de 768px)
+   ====================================================== */
+@media (min-width: 768px) {
+    
+    .results-selector {
+        padding-right: 10px;
+        justify-content: right;
+    }
+}
+
+/* ======================================================
+   DESKTOPS (A partir de 992px)
+   ====================================================== */
+@media (min-width: 992px) {
+
+    .circuit-content {
+        padding: 40px 40px;
+    }
+
+    .circuit-main__container {
+        gap: 20px;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: center;
+    }
+
+    .circuit__image {
+        border-right: 1px solid #333;
+        padding: 15px;
+    }
+
+    .circuit-aside__info {
+        border-top: none;
+    }
+
+    .circuit-aside__history {
+        border-bottom: none;
+    }
+}

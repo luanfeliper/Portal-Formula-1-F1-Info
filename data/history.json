@@ -1,0 +1,53 @@
+{
+  "mostTitles": [
+    { "name": "Michael Schumacher", "country": "Alemanha", "titles": 7 },
+    { "name": "Lewis Hamilton", "country": "Reino Unido", "titles": 7, "active": true },
+    { "name": "Juan Manuel Fangio", "country": "Argentina", "titles": 5 },
+    { "name": "Alain Prost", "country": "França", "titles": 4 },
+    { "name": "Max Verstappen", "country": "Países Baixos", "titles": 4, "active": true },
+    { "name": "Sebastian Vettel", "country": "Alemanha", "titles": 4 },
+    { "name": "Ayrton Senna", "country": "Brasil", "titles": 3 },
+    { "name": "Niki Lauda", "country": "Áustria", "titles": 3 },
+    { "name": "Jackie Stewart", "country": "Reino Unido", "titles": 3 },
+    { "name": "Nelson Piquet", "country": "Brasil", "titles": 3 }
+  ],
+
+  "mostWins": [
+    { "name": "Lewis Hamilton", "country": "Reino Unido", "wins": 106, "active": true },
+    { "name": "Michael Schumacher", "country": "Alemanha", "wins": 91 },
+    { "name": "Max Verstappen", "country": "Países Baixos", "wins": 71, "active": true },
+    { "name": "Sebastian Vettel", "country": "Alemanha", "wins": 53 },
+    { "name": "Alain Prost", "country": "França", "wins": 51 },
+    { "name": "Ayrton Senna", "country": "Brasil", "wins": 41 },
+    { "name": "Fernando Alonso", "country": "Espanha", "wins": 32, "active": true },
+    { "name": "Nigel Mansell", "country": "Reino Unido", "wins": 31 },
+    { "name": "Jackie Stewart", "country": "Reino Unido", "wins": 27 },
+    { "name": "Jim Clark", "country": "Reino Unido", "wins": 25 }
+  ],
+
+  "teamMostTitles": [
+    { "name": "Ferrari", "country": "Itália", "titles": 16 },
+    { "name": "Williams", "country": "Reino Unido", "titles": 9 },
+    { "name": "McLaren", "country": "Reino Unido", "titles": 8 },
+    { "name": "Mercedes", "country": "Alemanha", "titles": 8 },
+    { "name": "Lotus", "country": "Reino Unido", "titles": 7 },
+    { "name": "Red Bull", "country": "Áustria", "titles": 6 },
+    { "name": "Cooper", "country": "Reino Unido", "titles": 2 },
+    { "name": "Brabham", "country": "Reino Unido", "titles": 2 },
+    { "name": "Renault", "country": "França", "titles": 2 },
+    { "name": "Brawn", "country": "Reino Unido", "titles": 1 }
+  ],
+
+  "teamMostWins": [
+    { "name": "Ferrari", "country": "Itália", "wins": 248 },
+    { "name": "McLaren", "country": "Reino Unido", "wins": 203 },
+    { "name": "Mercedes", "country": "Alemanha", "wins": 131 },
+    { "name": "Red Bull", "country": "Áustria", "wins": 130 },
+    { "name": "Williams", "country": "Reino Unido", "wins": 114 },
+    { "name": "Lotus", "country": "Reino Unido", "wins": 131 },
+    { "name": "Brabham", "country": "Reino Unido", "wins": 35 },
+    { "name": "Renault", "country": "França", "wins": 35 },
+    { "name": "Benneton", "country": "Reino Unido/Itália", "wins": 27 },
+    { "name": "Tyrrel", "country": "Reino Unido", "wins": 23 }
+  ]
+}

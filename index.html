@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/homePage.css">
+
+</head>
+
+<body class="page-home">
+
+    <header class="header">
+        <section class="header-container">
+            <a href="index.html"><img src="images/f1-logo.png" alt="F1 Logo" class="logo header-logo"></a>
+            <button class="hamburger" aria-label="Abrir Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="schedule.html">Calendário</a></li>
+                    <li><a href="schedule.html">Resultados</a></li>
+                    <li><a href="drivers.html">Pilotos</a></li>
+                    <li><a href="teams.html">Equipes</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="countdown-bar" id="countdown"></section>
+
+    </header>
+
+
+    <main class="index-main">
+
+        <section class="hero index-hero" id="homeHero"></section>
+
+
+        <section class="content summary" id="summary">
+
+            <section class="last-result" id="lastResultContainer"></section>
+
+            <section class="next-gp">
+                <div class="gp-card-container" id="nextGpContainer"></div>
+            </section>
+
+        </section>
+
+
+        <section class="content standings" id="standings"></section>
+
+
+        <section class="content about" id="about">
+            <div class="about-container">
+                <div class="about-img-container"><img src="images/content/about-image.avif" alt="F1 History" 
+                        loading="lazy"></div>
+                <article>
+                    <h2>O que é a F1?</h2>
+                    <p>
+                        A Fórmula 1 é o ápice do automobilismo mundial, representando a união perfeita entre
+                        <strong>tecnologia de ponta</strong>, engenharia extrema e a coragem inabalável dos
+                        melhores pilotos do planeta. Diferente de qualquer outra categoria, a F1 é um campeonato
+                        de construtores, onde cada equipe projeta seu próprio carro do zero, transformando cada
+                        Grande Prêmio em uma batalha de inovação que dita os rumos da indústria automotiva global.
+                    </p>
+                    <p>
+                        Desde sua temporada inaugural em 1950, a categoria evoluiu de máquinas movidas a força
+                        bruta para complexas unidades de potência híbridas, capazes de ultrapassar os <strong>350
+                            km/h</strong>.
+                        Mais do que apenas uma corrida, a F1 é um espetáculo global que percorre os cinco continentes,
+                        desafiando os limites humanos e mecânicos em circuitos icônicos, onde cada milésimo de segundo
+                        separa os imortais dos esquecidos.
+                    </p>
+                </article>
+            </div>
+
+            <div class="about-button-container">
+                <a href="#" class="button about-button">Regulamento Atual</a>
+                <a href="#" class="button about-button">Especificações do Carro</a>
+            </div>
+        </section>
+
+
+        <section class="history" id="history"></section>
+    </main>
+
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-section logo-section">
+                <img src="images/f1-logo.png" alt="F1 Logo" class="logo footer-logo">
+                <p>Projeto desenvolvido para fins de estudo. Este não é um site oficial da Fórmula 1.</p>
+            </div>
+
+            <div class="footer-section links-section">
+                <h3>Navegação</h3>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#summary">Resumo</a></li>
+                    <li><a href="#standings">Classificação</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#history">História</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section social-section">
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter / X</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 F1 Fan Page. Todos os direitos reservados.</p>
+            <p>Desenvolvido por <strong>Luan</strong></p>
+        </div>
+    </footer>
+
+    <script type="module" src="./js/pages/homePage.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,553 @@
+[    
+    {
+        "id": "albert-park",
+        "name": "Albert Park Circuit",
+        "grandPrixName": "Australian Grand Prix",
+        "country": "Austrália",
+        "flag": "images/flags/australia-flag.webp",
+        "length": "5.27 km",
+        "laps": 58,
+        "firstGP": 1996,
+        "trackImage": "images/tracks/australia-track.avif",
+        "lapRecord": {
+            "time": "1:19.813",
+            "driver": "Charles Leclerc",
+            "year": 2024
+        },
+        "type": "Rua",
+        "direction": "Horário",
+        "description": "Um circuito de rua montado ao redor do lago Albert Park em Melbourne, famoso por ser a abertura tradicional da temporada.",
+        "gallery": [
+            "images/circuits/aus1.jpg",
+            "images/circuits/aus2.jpg"
+        ]
+    },
+    {
+        "id": "shanghai",
+        "name": "Shanghai International Circuit",
+        "grandPrixName": "Chinese Grand Prix",
+        "country": "China",
+        "flag": "images/flags/china-flag.webp",
+        "length": "5.45 km",
+        "laps": 56,
+        "firstGP": 2004,
+        "trackImage": "images/tracks/china-track.avif",
+        "lapRecord": {
+            "time": "1:32.238",
+            "driver": "Michael Schumacher",
+            "year": 2004
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "Inspirado no caractere chinês 'shang', possui uma das retas mais longas do calendário.",
+        "gallery": [
+            "images/circuits/china1.jpg",
+            "images/circuits/china2.jpg"
+        ]
+    },
+    {
+        "id": "suzuka",
+        "name": "Suzuka International Racing Course",
+        "grandPrixName": "Japanese Grand Prix",
+        "country": "Japão",
+        "flag": "images/flags/japan-flag.webp",
+        "length": "5.80 km",
+        "laps": 53,
+        "firstGP": 1987,
+        "trackImage": "images/tracks/japan-track.avif",
+        "lapRecord": {
+            "time": "1:30.965",
+            "driver": "Kimi Antonelli",
+            "year": 2025
+        },
+        "type": "Permanente",
+        "direction": "Formato de 8",
+        "description": "Um dos favoritos dos pilotos, o único circuito em formato de '8' na F1.",
+        "gallery": [
+            "images/circuits/japan1.jpg",
+            "images/circuits/japan2.jpg"
+        ]
+    },
+    {
+        "id": "bahrain",
+        "name": "Bahrain International Circuit",
+        "grandPrixName": "Bahrain Grand Prix",
+        "country": "Bahrein",
+        "flag": "images/flags/bahrain-flag.webp",
+        "length": "5.41 km",
+        "laps": 57,
+        "firstGP": 2004,
+        "trackImage": "images/tracks/bahrain-track.avif",
+        "lapRecord": {
+            "time": "1:31.447",
+            "driver": "Pedro de la Rosa",
+            "year": 2005
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "Localizado no deserto de Sakhir, foi o primeiro GP no Oriente Médio.",
+        "gallery": [
+            "images/circuits/bahrain1.jpg",
+            "images/circuits/bahrain2.jpg"
+        ]
+    },
+    {
+        "id": "jeddah",
+        "name": "Jeddah Corniche Circuit",
+        "grandPrixName": "Saudi Arabian Grand Prix",
+        "country": "Arábia Saudita",
+        "flag": "images/flags/saudi-arabia-flag.webp",
+        "length": "6.17 km",
+        "laps": 50,
+        "firstGP": 2021,
+        "trackImage": "images/tracks/saudi-arabia-track.avif",
+        "lapRecord": {
+            "time": "1:30.734",
+            "driver": "Lewis Hamilton",
+            "year": 2021
+        },
+        "type": "Rua",
+        "direction": "Anti-Horário",
+        "description": "O circuito de rua mais rápido do mundo, com curvas de alta velocidade entre muros próximos.",
+        "gallery": [
+            "images/circuits/jeddah1.jpg",
+            "images/circuits/jeddah2.jpg"
+        ]
+    },
+    {
+        "id": "miami",
+        "name": "Miami International Autodrome",
+        "grandPrixName": "Miami Grand Prix",
+        "country": "Estados Unidos",
+        "flag": "images/flags/usa-flag.webp",
+        "length": "5.41 km",
+        "laps": 57,
+        "firstGP": 2022,
+        "trackImage": "images/tracks/miami-track.avif",
+        "lapRecord": {
+            "time": "1:29.708",
+            "driver": "Max Verstappen",
+            "year": 2023
+        },
+        "type": "Rua",
+        "direction": "Anti-Horário",
+        "description": "Circuito construído ao redor do Hard Rock Stadium, trazendo o estilo de Miami para a F1.",
+        "gallery": [
+            "images/circuits/miami1.jpg",
+            "images/circuits/miami2.jpg"
+        ]
+    },
+    {
+        "id": "gilles-villeneuve",
+        "name": "Circuit Gilles-Villeneuve",
+        "grandPrixName": "Canadian Grand Prix",
+        "country": "Canadá",
+        "flag": "images/flags/canada-flag.webp",
+        "length": "4.36 km",
+        "laps": 70,
+        "firstGP": 1978,
+        "trackImage": "images/tracks/canada-track.avif",
+        "lapRecord": {
+            "time": "1:13.078",
+            "driver": "Valtteri Bottas",
+            "year": 2019
+        },
+        "type": "Rua/Permanente",
+        "direction": "Horário",
+        "description": "Situado na Ilha de Notre-Dame, famoso pelo 'Muro dos Campeões' na última chicane.",
+        "gallery": [
+            "images/circuits/canada1.jpg",
+            "images/circuits/canada2.jpg"
+        ]
+    },
+    {
+        "id": "monaco",
+        "name": "Circuit de Monaco",
+        "grandPrixName": "Monaco Grand Prix",
+        "country": "Mônaco",
+        "flag": "images/flags/monaco-flag.webp",
+        "length": "3.33 km",
+        "laps": 78,
+        "firstGP": 1950,
+        "trackImage": "images/tracks/monaco-track.avif",
+        "lapRecord": {
+            "time": "1:12.909",
+            "driver": "Lewis Hamilton",
+            "year": 2021
+        },
+        "type": "Rua",
+        "direction": "Horário",
+        "description": "A joia da coroa da F1. Correr em Mônaco é como andar de bicicleta na sala de estar.",
+        "gallery": [
+            "images/circuits/monaco1.jpg",
+            "images/circuits/monaco2.jpg"
+        ]
+    },
+    {
+        "id": "barcelona",
+        "name": "Circuit de Barcelona-Catalunya",
+        "grandPrixName": "Spanish Grand Prix",
+        "country": "Espanha",
+        "flag": "images/flags/spain-flag.webp",
+        "length": "4.65 km",
+        "laps": 66,
+        "firstGP": 1991,
+        "trackImage": "images/tracks/barcelona-track.avif",
+        "lapRecord": {
+            "time": "1:15.743",
+            "driver": "Oscar Piastri",
+            "year": 2025
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "Um circuito de testes tradicional que exige equilíbrio aerodinâmico perfeito.",
+        "gallery": [
+            "images/circuits/catalunya1.jpg",
+            "images/circuits/catalunya2.jpg"
+        ]
+    },
+    {
+        "id": "red-bull-ring",
+        "name": "Red Bull Ring",
+        "grandPrixName": "Austrian Grand Prix",
+        "country": "Áustria",
+        "flag": "images/flags/austria-flag.webp",
+        "length": "4.32 km",
+        "laps": 71,
+        "firstGP": 1970,
+        "trackImage": "images/tracks/austria-track.avif",
+        "lapRecord": {
+            "time": "1:07.924",
+            "driver": "Oscar Piastri",
+            "year": 2025
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "Localizado nas montanhas de Styria, é um circuito curto com grandes mudanças de elevação.",
+        "gallery": [
+            "images/circuits/austria1.jpg",
+            "images/circuits/austria2.jpg"
+        ]
+    },
+    {
+        "id": "silverstone",
+        "name": "Silverstone Circuit",
+        "grandPrixName": "British Grand Prix",
+        "country": "Reino Unido",
+        "flag": "images/flags/uk-flag.webp",
+        "length": "5.89 km",
+        "laps": 52,
+        "firstGP": 1950,
+        "trackImage": "images/tracks/uk-track.avif",
+        "lapRecord": {
+            "time": "1:27.097",
+            "driver": "Max Verstappen",
+            "year": 2020
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "A casa do automobilismo britânico, palco do primeiro GP da história da F1.",
+        "gallery": [
+            "images/circuits/uk1.jpg",
+            "images/circuits/uk2.jpg"
+        ]
+    },
+    {
+        "id": "spa-francorchamps",
+        "name": "Circuit de Spa-Francorchamps",
+        "grandPrixName": "Belgian Grand Prix",
+        "country": "Bélgica",
+        "flag": "images/flags/belgium-flag.webp",
+        "length": "7.00 km",
+        "laps": 44,
+        "firstGP": 1950,
+        "trackImage": "images/tracks/belgium-track.avif",
+        "lapRecord": {
+            "time": "1:44.701",
+            "driver": "Sergio Pérez",
+            "year": 2024
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "O circuito mais longo do calendário, lar da lendária curva Eau Rouge.",
+        "gallery": [
+            "images/circuits/spa1.jpg",
+            "images/circuits/spa2.jpg"
+        ]
+    },
+    {
+        "id": "hungaroring",
+        "name": "Hungaroring",
+        "grandPrixName": "Hungarian Grand Prix",
+        "country": "Hungria",
+        "flag": "images/flags/hungary-flag.webp",
+        "length": "4.38 km",
+        "laps": 70,
+        "firstGP": 1986,
+        "trackImage": "images/tracks/hungary-track.avif",
+        "lapRecord": {
+            "time": "1:16.627",
+            "driver": "Lewis Hamilton",
+            "year": 2020
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "Muitas vezes chamado de 'Mônaco sem muros' por ser travado e difícil de ultrapassar.",
+        "gallery": [
+            "images/circuits/hungary1.jpg",
+            "images/circuits/hungary2.jpg"
+        ]
+    },
+    {
+        "id": "zandvoort",
+        "name": "Circuit Zandvoort",
+        "grandPrixName": "Dutch Grand Prix",
+        "country": "Países Baixos",
+        "flag": "images/flags/netherlands-flag.webp",
+        "length": "4.25 km",
+        "laps": 72,
+        "firstGP": 1952,
+        "trackImage": "images/tracks/netherlands-track.avif",
+        "lapRecord": {
+            "time": "1:11.097",
+            "driver": "Lewis Hamilton",
+            "year": 2021
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "Famoso por suas curvas inclinadas (banking) e atmosfera vibrante da torcida 'Orange Army'.",
+        "gallery": [
+            "images/circuits/holland1.jpg",
+            "images/circuits/holland2.jpg"
+        ]
+    },
+    {
+        "id": "monza",
+        "name": "Autodromo Nazionale Monza",
+        "grandPrixName": "Italian Grand Prix",
+        "country": "Itália",
+        "flag": "images/flags/italy-flag.webp",
+        "length": "5.79 km",
+        "laps": 53,
+        "firstGP": 1950,
+        "trackImage": "images/tracks/italy-track.avif",
+        "lapRecord": {
+            "time": "1:20.901",
+            "driver": "Lando Norris",
+            "year": 2025
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "O 'Templo da Velocidade', onde a paixão dos Tifosi da Ferrari domina.",
+        "gallery": [
+            "images/circuits/monza1.jpg",
+            "images/circuits/monza2.jpg"
+        ]
+    },
+    {
+        "id": "madrid",
+        "name": "IFEMA Madrid Circuit",
+        "grandPrixName": "Spanish Grand Prix",
+        "country": "Espanha",
+        "flag": "images/flags/spain-flag.webp",
+        "length": "5.41 km",
+        "laps": 57,
+        "firstGP": 2026,
+        "trackImage": "images/tracks/madrid-track.avif",
+        "lapRecord": {
+            "time": "N/A",
+            "driver": "N/A",
+            "year": "N/A"
+        },
+        "type": "Rua",
+        "direction": "Horário",
+        "description": "Novo circuito de rua híbrido em Madrid, estreando na temporada de 2026.",
+        "gallery": [
+            "images/circuits/madrid1.jpg"
+        ]
+    },
+    {
+        "id": "baku",
+        "name": "Baku City Circuit",
+        "grandPrixName": "Azerbaijan Grand Prix",
+        "country": "Azerbaijão",
+        "flag": "images/flags/azerbaijan-flag.webp",
+        "length": "6.00 km",
+        "laps": 51,
+        "firstGP": 2016,
+        "trackImage": "images/tracks/azerbaijan-track.avif",
+        "lapRecord": {
+            "time": "1:43.009",
+            "driver": "Charles Leclerc",
+            "year": 2019
+        },
+        "type": "Rua",
+        "direction": "Anti-Horário",
+        "description": "Mistura retas ultrarápidas com trechos extremamente apertados na parte histórica da cidade.",
+        "gallery": [
+            "images/circuits/baku1.jpg",
+            "images/circuits/baku2.jpg"
+        ]
+    },
+    {
+        "id": "marina-bay",
+        "name": "Marina Bay Street Circuit",
+        "grandPrixName": "Singapore Grand Prix",
+        "country": "Singapura",
+        "flag": "images/flags/singapore-flag.webp",
+        "length": "4.92 km",
+        "laps": 62,
+        "firstGP": 2008,
+        "trackImage": "images/tracks/singapore-track.avif",
+        "lapRecord": {
+            "time": "1:33.808",
+            "driver": "Lewis Hamilton",
+            "year": 2025
+        },
+        "type": "Rua",
+        "direction": "Anti-Horário",
+        "description": "A primeira corrida noturna da F1, conhecida pelo calor intenso e alta humidade.",
+        "gallery": [
+            "images/circuits/sing1.jpg",
+            "images/circuits/sing2.jpg"
+        ]
+    },
+    {
+        "id": "cota",
+        "name": "Circuit of the Americas",
+        "grandPrixName": "United States Grand Prix",
+        "country": "Estados Unidos",
+        "flag": "images/flags/usa-flag.webp",
+        "length": "5.51 km",
+        "laps": 56,
+        "firstGP": 2012,
+        "trackImage": "images/tracks/usa-track.avif",
+        "lapRecord": {
+            "time": "1:36.169",
+            "driver": "Charles Leclerc",
+            "year": 2019
+        },
+        "type": "Permanente",
+        "direction": "Anti-Horário",
+        "description": "Famoso pela íngreme subida para a curva 1 e por misturar elementos de outros circuitos icônicos.",
+        "gallery": [
+            "images/circuits/cota1.jpg",
+            "images/circuits/cota2.jpg"
+        ]
+    },
+    {
+        "id": "hermanos-rodriguez",
+        "name": "Autódromo Hermanos Rodríguez",
+        "grandPrixName": "Mexico City Grand Prix",
+        "country": "México",
+        "flag": "images/flags/mexico-flag.webp",
+        "length": "4.30 km",
+        "laps": 71,
+        "firstGP": 1963,
+        "trackImage": "images/tracks/mexico-track.avif",
+        "lapRecord": {
+            "time": "1:17.774",
+            "driver": "Valtteri Bottas",
+            "year": 2021
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "Localizado a mais de 2.000 metros de altitude, desafiando a aerodinâmica e o fôlego dos motores.",
+        "gallery": [
+            "images/circuits/mexico1.jpg",
+            "images/circuits/mexico2.jpg"
+        ]
+    },
+    {
+        "id": "interlagos",
+        "name": "Autódromo de Interlagos",
+        "grandPrixName": "São Paulo Grand Prix",
+        "country": "Brasil",
+        "flag": "images/flags/brazil-flag.webp",
+        "length": "4.30 km",
+        "laps": 71,
+        "firstGP": 1973,
+        "trackImage": "images/tracks/brazil-track.avif",
+        "lapRecord": {
+            "time": "1:10.540",
+            "driver": "Valtteri Bottas",
+            "year": 2018
+        },
+        "type": "Permanente",
+        "direction": "Anti-Horário",
+        "description": "Um circuito clássico com atmosfera incrível e curvas desafiadoras como o S do Senna.",
+        "gallery": [
+            "images/circuits/brasil1.jpg",
+            "images/circuits/brasil2.jpg"
+        ]
+    },
+    {
+        "id": "las-vegas",
+        "name": "Las Vegas Strip Circuit",
+        "grandPrixName": "Las Vegas Grand Prix",
+        "country": "Estados Unidos",
+        "flag": "images/flags/usa-flag.webp",
+        "length": "6.20 km",
+        "laps": 50,
+        "firstGP": 2023,
+        "trackImage": "images/tracks/vegas-track.avif",
+        "lapRecord": {
+            "time": "1:33.365",
+            "driver": "Max Verstappen",
+            "year": 2025
+        },
+        "type": "Rua",
+        "direction": "Anti-Horário",
+        "description": "Uma corrida noturna espetacular que passa pela famosa Strip de Las Vegas.",
+        "gallery": [
+            "images/circuits/vegas1.jpg",
+            "images/circuits/vegas2.jpg"
+        ]
+    },
+    {
+        "id": "lusail",
+        "name": "Lusail International Circuit",
+        "grandPrixName": "Qatar Grand Prix",
+        "country": "Catar",
+        "flag": "images/flags/qatar-flag.webp",
+        "length": "5.41 km",
+        "laps": 57,
+        "firstGP": 2021,
+        "trackImage": "images/tracks/qatar-track.avif",
+        "lapRecord": {
+            "time": "1:22.384",
+            "driver": "Lando Norris",
+            "year": 2024
+        },
+        "type": "Permanente",
+        "direction": "Horário",
+        "description": "Um circuito rápido e fluido, originalmente construído para a MotoGP.",
+        "gallery": [
+            "images/circuits/qatar1.jpg",
+            "images/circuits/qatar2.jpg"
+        ]
+    },
+    {
+        "id": "yas-marina",
+        "name": "Yas Marina Circuit",
+        "grandPrixName": "Abu Dhabi Grand Prix",
+        "country": "Abu Dhabi",
+        "flag": "images/flags/uae-flag.webp",
+        "length": "5.28 km",
+        "laps": 58,
+        "firstGP": 2009,
+        "trackImage": "images/tracks/abu-dhabi-track.avif",
+        "lapRecord": {
+            "time": "1:25.537",
+            "driver": "Kevin Magnussen",
+            "year": 2024
+        },
+        "type": "Permanente",
+        "direction": "Anti-Horário",
+        "description": "Circuito localizado em Yas Island, Abu Dhabi. Conhecido por ser uma corrida noturna e frequentemente decidir campeonatos.",
+        "gallery": [
+            "images/circuits/yas1.jpg",
+            "images/circuits/yas2.jpg"
+        ]
+    }
+]

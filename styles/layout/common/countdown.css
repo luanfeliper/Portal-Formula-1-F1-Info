@@ -1,0 +1,103 @@
+.countdown-bar {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: 8px 0;
+    font-family: var(--font-formula);
+    font-weight: normal;
+}
+
+.countdown-link {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+.countdown-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 1600px;
+    margin: 0 auto;
+    gap: 8px;
+
+    font-size: 0.8rem;
+}
+
+.race-identity {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.countdown-race-card-round, .mini-flag-name-gp, .gp-date, .time-display {
+    background-color: var(--bg-primary);
+    padding: 4px 10px;
+    border-radius: 8px;
+
+    border: 1px solid var(--border-accent);
+    border-top-width: 1px;
+    border-bottom-width: 2px;
+}
+
+.mini-flag-name-gp {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mini-flag-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 100%;
+}
+
+.mini-flag {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    object-fit: cover;
+    aspect-ratio: 3 / 2;
+}
+
+.countdown-race-card-round,
+.gp-date {
+    display: none;
+}
+
+.time-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 170px;
+}
+
+.day-label {
+    text-transform: uppercase;
+}
+
+.countdown-digits {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.countdown-digits small {
+    font-size: 0.7rem;
+}
+
+
+/* ======================================================
+   TABLETS (A partir de 768px)
+   ====================================================== */
+@media (min-width: 768px) {
+
+    .countdown-race-card-round,
+    .gp-date {
+        display: block;
+    }
+}

@@ -1,0 +1,257 @@
+.team-main {
+    grid-area: team-main;
+
+    display: grid;
+    grid-template-areas:
+        "team-hero"
+        "team-profile-container";
+
+    background-color: var(--bg-primary);
+}
+
+#teamProfileContainer {
+    grid-area: team-profile-container;
+
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+
+    color: white;
+}
+
+.team-profile__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: var(--text-primary);
+
+    padding: 25px 20px;
+
+    gap: 20px;
+}
+
+.team-profile__content h2 {
+    font-family: var(--font-formula);
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.team-header {
+    background-color: var(--bg-primary);
+    padding: 20px;
+}
+
+.team__info-line-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.team__info-line {
+    border-bottom: 1px solid #333;
+    padding: 10px 0;
+
+}
+
+.team__info-line h3 {
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-family: var(--font-highlight);
+}
+
+.team__info-line span {
+    font-size: 1.4rem;
+    font-family: var(--font-formula);
+    font-weight: bold;
+}
+
+.team__info-line p {
+    font-size: 0.9rem;
+    font-family: var(--font-highlight);
+}
+
+.team-statistics__container h1 {
+    font-family: var(--font-formula);
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.team-drivers {
+    padding: 20px;
+    background-color: var(--bg-secondary);
+    border-radius: 20px 8px;
+}
+
+.team-drivers__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.team-driver-card {
+    width: 100%;
+    height: 400px;
+    border-radius: 20px 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+
+    border: 3px solid var(--border-secondary);
+    border-top-width: 3px;
+    border-bottom-width: 5px;
+    transition: 0.2s;
+
+    box-shadow: var(--box-shadow-soft);
+
+    padding: 15px;
+    text-decoration: none;
+
+    position: relative;
+}
+
+.team-driver-card:hover {
+    border-color: var(--border-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-accent);
+}
+
+.team-driver-card:hover .team-driver-card__name {
+    text-decoration: underline;
+}
+
+.team-driver-card__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-driver-card__bg-number {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: var(--font-formula-wide);
+    font-weight: bold;
+    font-size: clamp(120px, 35vw, 250px);
+    color: black;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.575);
+    opacity: 0.3;
+
+    z-index: 1;
+
+    mix-blend-mode: overlay;
+}
+
+.team-driver-card__image {
+    overflow: hidden;
+    padding-top: 20px;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+}
+
+.team-driver-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.247));
+}
+
+.team-driver-card__name {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+    font-family: var(--font-formula);
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: var(--text-header);
+    text-shadow: var(--text-shadow-strong);
+    z-index: 4;
+}
+
+.team-driver-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    z-index: 3;
+    /* Suavização baseada em curva (easing) */
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.6) 0%,
+            rgba(0, 0, 0, 0.45) 15%,
+            rgba(0, 0, 0, 0.3) 35%,
+            rgba(0, 0, 0, 0.15) 60%,
+            rgba(0, 0, 0, 0.05) 80%,
+            transparent 100%);
+}
+
+
+.team-statistics {
+    background-color: var(--bg-primary);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.team-statistics__history,
+.team-statistics__season {
+    background-color: var(--bg-secondary);
+    border-radius: 20px 8px;
+    padding: 20px;
+
+    box-shadow: var(--box-shadow-soft);
+}
+
+.team-statistics__history {
+    border: 2px solid #333;
+}
+
+.team-statistics__season {
+    border: 2px solid red;
+}
+
+.team-statistics__info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+
+.team-statistics__chart {
+    background-color: var(--bg-secondary);
+    padding: 20px;
+    border-radius: 20px 8px;
+}
+
+.team-statistics__chart h2 {
+    text-align: center;
+}
+
+.chart-container {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    margin: 0 auto;
+
+    overflow: hidden;   /* Impede que o canvas "vaze" enquanto calcula o novo tamanho */
+    contain: strict;    /* Diz ao navegador para isolar totalmente os cálculos dessa div */
+}

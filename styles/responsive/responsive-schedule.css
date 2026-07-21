@@ -1,0 +1,33 @@
+/* ======================================================
+   TABLETS (A partir de 768px)
+   ====================================================== */
+@media (min-width: 768px) {
+
+    .schedule-gp-card-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+
+/* ======================================================
+   DESKTOPS (A partir de 992px)
+   ====================================================== */
+@media (min-width: 992px) {
+
+    .schedule-gp-card-container {
+        padding: 25px 40px;
+    }
+}
+
+
+/* ====================================================== 
+  TELAS MUITO GRANDES
+  ====================================================== */
+@media (min-width: 1400px) {
+
+    .schedule-gp-card-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}

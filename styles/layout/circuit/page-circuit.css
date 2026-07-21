@@ -1,0 +1,7 @@
+.page-circuit {
+    display: grid;
+    grid-template-areas:
+    "header" 
+    "circuit-main"
+    "footer";
+}

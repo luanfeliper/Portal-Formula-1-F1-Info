@@ -1,0 +1,29 @@
+.circuit-hero {
+    grid-area: circuit-hero;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-position: center;
+
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+
+    display: flex;
+    align-items: end;
+    justify-content: start;
+
+    color: var(--text-header);
+    padding: 0 15px;
+
+    border-bottom: 3px solid var(--border-accent);
+}
+
+.circuit-hero__content {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: var(--font-formula);
+    font-weight: bold;
+    padding: 20px 0;
+    text-transform: uppercase;
+}

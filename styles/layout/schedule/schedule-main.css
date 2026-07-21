@@ -1,0 +1,155 @@
+.schedule-main {
+    grid-area: schedule-main;
+
+    display: grid;
+    grid-template-areas:
+        "schedule-hero"
+        "schedule-gp-card-container";
+
+    background-color: var(--bg-secondary);
+}
+
+.schedule-gp-card-container {
+    grid-area: schedule-gp-card-container;
+
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 20px;
+    border-radius: 20px 8px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background-color: var(--bg-secondary);
+}
+
+.schedule-gp-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.race-card__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span.race-card__status {
+    font-family: var(--font-formula);
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    height: max-content;
+    padding: 8px 10px;
+
+    border-radius: 6px;
+    border: 1px solid #333;
+}
+
+.race-card__meta {
+    display: flex;
+    flex-direction: column;
+}
+
+span.race-card__date {
+    color: var(--text-primary);
+    font-family: var(--font-formula);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.race-card__round {
+    color: var(--text-accent);
+    font-family: var(--font-highlight);
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-shadow: var(--text-glow-accent);
+}
+
+.race-card__info h3 {
+    color: var(--text-primary);
+    font-family: var(--font-formula);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.race-card__info h4 {
+    font-family: var(--font-highlight);
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.race-card__media {
+    margin: auto;
+    width: 100%;
+    max-width: 340px;
+    /* Força o container a ter sempre o espaço de uma imagem 3/2 */
+    aspect-ratio: 3 / 2; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.race-card__media img {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+    border-radius: 8px;
+}
+
+/* Quando for bandeira, ela preenche tudo */
+.flag-img img {
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+/* Quando for circuito, ele se ajusta dentro do espaço 3/2 sem esticar */
+.track-img img {
+    object-fit: contain; 
+}
+
+
+
+/* Classificação dos Race Cards Status*/
+.card-status-live {
+    border-color: var(--border-accent);
+    box-shadow: var(--box-shadow-accent);
+    scale: 1.01;
+}
+
+.card-status-completed {
+    opacity: 0.9;
+}
+
+.status-completed {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    text-shadow: var(--text-shadow-soft);
+}
+
+.status-next {
+    background-color: var(--bg-tertiary);
+    color: var(--text-accent);
+    text-shadow: var(--text-glow-accent);
+}
+
+.status-live {
+    background-color: var(--bg-quaternary);
+    color: var(--text-primary);
+    text-shadow: var(--text-shadow-strong);
+}
+
+.status-upcoming {
+    display: none;
+}
+
+.highlighted-race {
+    border-color: var(--border-accent);
+}

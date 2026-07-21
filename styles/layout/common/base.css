@@ -1,0 +1,336 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+
+/* 1. Estilo Regular */
+@font-face {
+    font-family: 'Formula1';
+    src: url("../../../fonts/Formula1/Formula1-Regular_web_0.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2. Estilo Bold */
+@font-face {
+    font-family: 'Formula1';
+    src: url("../../../fonts/Formula1/Formula1-Bold_web_0.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 3. Estilo Wide */
+@font-face {
+    font-family: 'Formula1 Wide';
+    src: url("../../../fonts/Formula1/Formula1-Wide_web_0.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* =========================
+       CORES BASE 
+       ========================= */
+    --color-red: #ff1801;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-gray-dark: #1a1a1a;
+    --color-gray-darker: #0a0a0a;
+    --color-gray-light: #151515;
+
+    /* =========================
+       BACKGROUNDS
+       ========================= */
+    --bg-header: var(--color-red);
+    --bg-footer: var(--color-gray-light);
+    --bg-footer-secondary: var(--color-gray-darker);
+
+    --bg-primary: var(--color-black);
+    --bg-secondary: var(--color-gray-dark);
+    --bg-tertiary: var(--color-white);
+    --bg-quaternary: var(--color-red);
+
+    /* =========================
+       TEXT COLORS
+       ========================= */
+    --text-header: var(--color-white);
+    --text-primary: var(--color-white);
+    --text-secondary: var(--color-black);
+    --text-accent: var(--color-red);
+
+    /* =========================
+       BORDERS
+       ========================= */
+    --border-primary: var(--color-black);
+    --border-secondary: var(--color-gray-dark);
+    --border-accent: var(--color-red);
+
+    /* =========================
+       TIPOGRAFIA
+       ========================= */
+    --font-base: Arial, Verdana, Helvetica, sans-serif;
+    --font-formula: "Formula1", sans-serif;
+    --font-formula-wide: "formula1 Wide", sans-serif;
+    --font-highlight: "Poppins", sans-serif;
+
+    /* =========================
+       SHADOWS
+       ========================= */
+    --box-shadow-soft: 0 4px 8px rgba(0, 0, 0, 0.295);
+    --box-shadow-accent: 0 5px 18px rgba(255, 24, 1, 0.5);
+
+    /* =========================
+       TEXT EFFECTS
+       ========================= */
+    --text-shadow-soft: 1px 1px 1px rgba(0, 0, 0, 0.18);
+    --text-shadow-strong: 1px 1px 2px rgba(0, 0, 0, 0.295);
+    --text-glow-accent: 1px 1px 3px rgba(255, 22, 1, 0.397);
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FF1801;
+}
+
+body {
+    background-color: var(--bg-primary);
+
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+main {
+    grid-area: main;
+}
+
+
+.logo {
+    height: 30px;
+    width: auto;
+}
+
+
+/* CONFIG PADRÃO HEROS */
+.hero {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: var(--text-header);
+    padding: 0 15px;
+    border-bottom: 3px solid var(--border-accent);
+}
+
+
+/* CONFIG BASE BOTOES */
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+
+    text-decoration: none;
+    text-align: center;
+    text-shadow: var(--text-shadow-soft);
+    font-family: var(--font-highlight);
+    font-weight: bold;
+
+    border-radius: 20px 8px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    border: 2px solid #979797;
+    border-top-width: 2px;
+    border-bottom-width: 4px;
+    
+    box-shadow: var(--box-shadow-soft);
+}
+
+.button:hover {
+    border-color: var(--border-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-accent);
+}
+
+
+/* CONFIG BASE TABELAS*/
+.table-container {
+    border-radius: 20px 8px;
+    overflow: hidden;
+    border: 5px solid var(--border-primary);
+    box-shadow: var(--box-shadow-soft);   
+}
+
+.table-container table {
+    font-size: 0.9rem;
+    font-family: var(--font-highlight);
+    text-shadow: var(--text-shadow-strong);
+
+    border-collapse: collapse;
+    width: 100%;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    text-align: left;
+    margin: 0;
+}
+
+.table-container tr:nth-child(even) {
+    background-color: var(--bg-secondary);
+}
+
+.table-container th {
+    padding: 10px 5px;
+}
+
+.table-container .num {
+    text-align: right;
+    font-weight: bold;
+}
+
+.table-container td {
+    padding: 5px;
+    height: 50px;
+}
+
+.table-container table thead {
+    background-color: var(--bg-quaternary);
+}
+
+.table-container table tbody tr:hover {
+    background-color: #505050;
+}
+
+
+/* CONFIG BASE GP CARDS */
+.gp-card {
+    background-color: var(--bg-primary);
+    border-radius: 20px 8px;
+    padding: 20px;
+
+    border: 3px solid var(--border-secondary);
+    border-top-width: 3px;
+    border-bottom-width: 5px;
+    transition: 0.2s;
+
+    box-shadow: var(--box-shadow-soft);
+}
+
+.gp-card:hover {
+    border-color: var(--border-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-accent);
+}
+
+
+/* CORES BACKGROUND EQUIPES (E PILOTOS)*/
+.alpine-bg {
+    background: linear-gradient(135deg,
+            #001524 0%,
+            #005094 60%,
+            #fd4bc7 100%);
+}
+
+.astonmartin-bg {
+    background: linear-gradient(135deg,
+            #00352f 0%,
+            #006f62 60%,
+            #00a38c 100%);
+}
+
+.audi-bg {
+    background: linear-gradient(135deg,
+            #1A1A1A 0%,
+            #8A8D8F 60%,
+            #a50000 100%);
+}
+
+.cadillac-bg {
+    background: linear-gradient(135deg,
+            #242424 0%,
+            #c9c9c9 60%,
+            #1b1b1b 100%);
+}
+
+.ferrari-bg {
+    background: linear-gradient(135deg,
+            #7a0000 0%,
+            #cc0000 60%,
+            #ff1a1a 100%);
+}
+
+.haas-bg {
+    background: linear-gradient(135deg,
+            #c0c0c0 0%,
+            #555555 60%,
+            #8a0000 100%);
+}
+
+.mclaren-bg {
+    background: linear-gradient(135deg,
+            #4a1f00 0%,
+            #ff8000 60%,
+            #ffb347 100%);
+}
+
+.mercedes-bg {
+    background: linear-gradient(135deg,
+            #002f2a 0%,
+            #00d2be 60%,
+            #6effe7 100%);
+}
+
+.racingbulls-bg {
+    background: linear-gradient(135deg,
+            #00112b 0%,
+            #1532c8 60%,
+            #e6e6e6 100%);
+}
+
+.redbull-bg {
+    background: linear-gradient(135deg,
+            #060b2c 0%,
+            #1e2a78 60%,
+            #c40000 100%);
+}
+
+.williams-bg {
+    background: linear-gradient(135deg,
+            #000a1f 0%,
+            #005aff 60%,
+            #00a0ff 100%);
+}

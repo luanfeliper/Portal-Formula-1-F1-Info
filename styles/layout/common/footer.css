@@ -1,0 +1,122 @@
+footer {
+    grid-area: footer;
+
+    background-color: var(--bg-footer);
+    color: var(--text-primary);
+    border-top: 4px solid var(--border-accent);
+    padding-top: 40px;
+    margin-top: 0;
+}
+
+.footer-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px 40px 20px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-family: var(--font-formula);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: var(--text-glow-accent);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: var(--text-accent);
+}
+
+/* Coluna 1: Logo e Texto */
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+.logo-section p {
+    font-family: var(--font-base);
+    font-size: 0.9rem;
+    text-shadow: var(--text-shadow-soft);
+
+    color: #888;
+    line-height: 1.5;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Coluna 2: Links */
+.links-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-section li {
+    margin-bottom: 10px;
+}
+
+.links-section a {
+    text-decoration: none;
+    text-shadow: var(--text-shadow-soft);
+    color: var(--text-primary);
+    font-family: var(--font-highlight);
+    transition: 0.3s;
+}
+
+.links-section a:hover {
+    color: var(--text-accent);
+    padding-left: 2px;
+    text-shadow: var(--text-glow-accent);
+}
+
+/* Coluna 3: Redes Sociais (Botões) */
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-link {
+    text-decoration: none;
+    text-shadow: var(--text-shadow-soft);
+    color: var(--text-primary);
+    background-color: var(--bg-secondary);
+    font-family: var(--font-formula);
+    font-weight: normal;
+    font-size: 0.9rem;
+
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 20px 8px;
+    box-shadow: var(--box-shadow-soft);
+    
+    width: 100%;
+    max-width: 200px;
+    transition: 0.3s;
+}
+
+.social-link:hover {
+    background-color: var(--bg-quaternary);
+    border-color: var(--border-accent);
+    color: var(--text-secondary);
+    box-shadow: var(--box-shadow-accent);
+}
+
+/* Barra inferior */
+.footer-bottom {
+    background-color: var(--bg-footer-secondary);
+    color: #666;
+
+    border-top: 1px solid #222;
+    padding: 20px;
+
+    text-align: center;
+    text-shadow: var(--text-shadow-soft);
+    font-size: 0.8rem;
+    font-family: var(--font-base);
+}
+
+.footer-bottom strong {
+    color: var(--text-primary);
+}

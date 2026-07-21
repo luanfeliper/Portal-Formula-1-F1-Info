@@ -1,0 +1,20 @@
+.index-main {
+    grid-area: index-main;
+    display: grid;
+    grid-template-areas:
+        "index-hero"
+        "summary"
+        "standings"
+        "about"
+        "history";
+
+    width: 100%;
+}
+
+.content {
+    padding: 20px 20px;
+}
+
+.content h1, h2, h3 {
+    text-shadow: var(--text-shadow-strong);
+}

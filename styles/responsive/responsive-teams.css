@@ -1,0 +1,38 @@
+/* ======================================================
+   TABLETS (A partir de 768px)
+   ====================================================== */
+@media (min-width: 768px) {
+
+    .teams-card-container {
+        padding: 25px;
+        gap: 15px;
+    }
+
+    .team-card__car-image {
+        aspect-ratio: 1000 / 220; 
+        height: auto; 
+        padding-right: 15px;
+    }
+
+    .team-card__car-image img {
+        object-fit: contain; 
+        object-position: center; 
+    }
+
+    .team-card__footer {
+        flex-direction: row;
+    }
+}
+
+
+/* ======================================================
+   DESKTOPS (A partir de 992px)
+   ====================================================== */
+@media (min-width: 992px) {
+
+    .teams-card-container {
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        padding: 25px 40px;
+    }
+}
