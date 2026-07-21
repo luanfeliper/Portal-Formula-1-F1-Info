@@ -14,24 +14,34 @@ O portal inclui:
 
 ## 📸 Screenshots
 
+### Tela inicial
 ![Tela inicial](images/screenshots/tela_inicial.png)
 
+### Tela de calendário
 ![Tela de calendário](images/screenshots/tela_calendario.png)
 
+### Tela de pilotos
 ![Tela de pilotos](images/screenshots/tela_pilotos.png)
 
+### Tela de perfil de piloto
 ![Tela de perfil de piloto](images/screenshots/tela_perfil-piloto.png)
 
+### Tela de equipes
 ![Tela de equipes](images/screenshots/tela_equipes.png)
 
+### Tela de perfil de equipe
 ![Tela de perfil de equipe](images/screenshots/tela_perfil-equipe.png)
 
+### Tela de perfil de equipe com pilotos
 ![Tela de perfil de equipe com pilotos](images/screenshots/tela_perfil-equipe-pilotos.png)
 
+### Tela de circuito
 ![Tela de circuito](images/screenshots/tela_circuito.png)
 
+### Tela sobre
 ![Tela sobre](images/screenshots/tela_sobre.png)
 
+### Gráfico de evolução do piloto
 ![Gráfico de evolução do piloto](images/screenshots/grafico_evolucao-piloto.png)
 
 ---
