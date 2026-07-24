@@ -64,6 +64,10 @@ Para o desenvolvimento deste ecossistema front-end, foram utilizadas as seguinte
 * **Layout Fluido:** Design totalmente adaptado e responsivo para qualquer tamanho de tela (Mobile/Desktop).
 * **JS Estruturado:** Arquitetura baseada em *ES Modules* para garantir manutenção simples e escalabilidade.
 
+## 📱 Responsividade
+
+O projeto foi desenvolvido com atenção ao layout responsivo, garantindo uma experiência consistente em dispositivos móveis, tablets e desktops. A estrutura e os estilos foram pensados para se adaptarem de forma fluida ao tamanho da tela, mantendo a legibilidade, navegação e apresentação visual em diferentes resoluções.
+
 ---
 
 ## 📂 Estrutura de Arquivos
