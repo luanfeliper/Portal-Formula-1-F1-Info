@@ -4,7 +4,7 @@ async function fetchJson(filename) {
     if (cache[filename]) {
         return cache[filename];
     }
-    const response = await fetch(`/data/${filename}.json`);
+    const response = await fetch(`data/${filename}.json`);
     if (!response.ok) throw new Error(`Erro ao carregar ${filename}`);
     
     const data = await response.json();
