@@ -749,7 +749,55 @@
         "startDate": "2026-07-24",
         "endDate": "2026-07-26",
         "time": "13:00:00Z",
-        "displayDate": "24–26 JUL"
+        "displayDate": "24–26 JUL",
+        "result": {
+            "race": [
+                { "position": 1, "driverId": "norris", "points": 25
+                },
+                { "position": 2, "driverId": "verstappen", "points": 18
+                },
+                { "position": 3, "driverId": "antonelli", "points": 15
+                },
+                { "position": 4, "driverId": "leclerc", "points": 12
+                },
+                { "position": 5, "driverId": "hamilton", "points": 10
+                },
+                { "position": 6, "driverId": "hadjar", "points": 8
+                },
+                { "position": 7, "driverId": "russell", "points": 6
+                },
+                { "position": 8, "driverId": "lawson", "points": 4
+                },
+                { "position": 9, "driverId": "hulkenberg", "points": 2
+                },
+                { "position": 10, "driverId": "lindblad", "points": 1
+                },
+                { "position": 11, "driverId": "bortoleto", "points": 0
+                },
+                { "position": 12, "driverId": "gasly", "points": 0
+                },
+                { "position": 13, "driverId": "stroll", "points": 0
+                },
+                { "position": 14, "driverId": "alonso", "points": 0
+                },
+                { "position": 15, "driverId": "colapinto", "points": 0 
+                },
+                { "position": 16, "driverId": "ocon", "points": 0
+                },
+                { "position": 17, "driverId": "albon", "points": 0
+                },
+                { "position": 18, "driverId": "sainz", "points": 0
+                },
+                { "position": 19, "driverId": "bearman", "points": 0
+                },
+                { "position": "DNF", "driverId": "piastri", "points": 0 
+                },
+                { "position": "DNF", "driverId": "perez", "points": 0
+                },
+                { "position": "DNF", "driverId": "bottas", "points": 0
+                }
+            ]
+        }
     },
     {
         "circuitId": "zandvoort",

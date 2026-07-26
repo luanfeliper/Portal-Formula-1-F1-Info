@@ -2,8 +2,8 @@
     grid-area: teams-hero;
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("../../../images/banners/banner-8.avif");
-    background-position: bottom;
+    url("../../../images/banners/banner\ \(9\).avif");
+    background-position: center;
 }
 
 .teams-hero-content h1 {
